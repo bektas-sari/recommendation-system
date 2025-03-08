@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬🎵📚 Welcome to the Recommendation System! 🎬🎵📚</h1>
+        <p>Select a category to get recommendations:</p>
+        
+        <ul>
+            <li><a class="button" href="/recommend?category=movies">🎬 Movies</a></li>
+            <li><a class="button" href="/recommend?category=music">🎵 Music</a></li>
+            <li><a class="button" href="/recommend?category=books">📚 Books</a></li>
+        </ul>
+    </div>
+</body>
+</html>

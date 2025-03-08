@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ category }} Recommendations</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ category }} Recommendations</h1>
+        <ul>
+            {% for title, author, description in recommendations %}
+                <li>
+                    <strong>{{ title }}</strong>  
+                    <span>by {{ author }}</span>
+                    <p>{{ description }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="/" class="button">⬅ Go Back</a>
+    </div>
+</body>
+</html>
