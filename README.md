@@ -1,7 +1,8 @@
 # 🎬🎵📚 Recommendation System
 
 ## Overview
-The **Recommendation System** is a Flask-based web application that provides personalized recommendations for movies, music, and books. The system utilizes a CSV dataset and dynamically generates recommendations based on user selections. The design is modern, responsive, and user-friendly.
+The **Recommendation System** is a Flask-based web application that provides personalized recommendations for movies, music and books. 
+The system utilizes a CSV dataset and dynamically generates recommendations based on user selections. The design is modern, responsive, and user-friendly.
 
 ## Features
 ✅ Dynamic recommendations based on category selection (Movies, Music, Books)  
